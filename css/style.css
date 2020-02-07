@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* MAIN LAYOUT */
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+header, nav, content, footer {
+    width: 100%;
+}
+
+header, nav, footer {
+    flex-grow: 0;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+
+/* CONTENT */
+
+body {
+    font-size: 1em;
+    color: black;
+    line-height: 150%;
+}
+
+header, nav, footer {
+    text-align: center;
+}
+
+header {
+    padding: 25px;
+    background: rgb(50, 50, 50);
+    color: white; 
+}
+
+header > p {
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    margin-top: 14px;
+    font-size: 1.5em;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 14px;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+h3:first-of-type {
+    margin-top: 0px;
+}
+
+nav, footer {    
+    background: rgb(200, 200, 200);
+}
+
+nav {
+    font-size: 1.33em;
+    text-transform: uppercase;
+}
+
+nav a {
+    padding: 8px 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    background: #ff4500;
+}
+
+.content {
+    padding: 50px;
+    background: rgb(220, 220, 220);
+}
+
+main {
+    width: 80%;
+    max-width: 1280px;
+    margin: 0px auto;
+    /* background: green; */
+}
+
+main > p {
+    margin-bottom: 12px;
+}
+
+main > p:last-of-type {
+    margin-bottom: 0px;
+}
+
+footer {
+    padding: 5px;
+    font-size: 0.6875em;
+    line-height: 133%;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ff4500;
+}
+
+main a {
+    padding: 2px;
+    text-decoration: none;
+}
+
+main a:link {
+    color: #ff4500
+}
+
+main a:visited {
+    color: gray;
+}
+
+main a:hover {
+    background: #ff4500;
+    color: black;
+    border-bottom: 2px solid black;
+}
