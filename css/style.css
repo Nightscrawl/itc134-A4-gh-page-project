@@ -65,10 +65,6 @@ h3 {
     font-size: 1.25em;
 }
 
-h3:first-of-type {
-    margin-top: 0px;
-}
-
 nav, footer {    
     background: rgb(200, 200, 200);
 }
@@ -107,6 +103,19 @@ main > p {
 
 main > p:last-of-type {
     margin-bottom: 0px;
+}
+
+blockquote {
+    background: rgb(240, 240, 240);
+    border-left: 5px solid #ff4500;
+    margin: 20px 40px;
+    padding: 10px;
+    font-size: 1.25em;
+}
+
+.word {
+    font-weight: bold;
+    font-style: oblique;    
 }
 
 .ref {
